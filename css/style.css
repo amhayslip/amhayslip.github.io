@@ -1767,7 +1767,7 @@
     }
 
     .header .logo a {
-      margin-top: 15px;
+      margin-top: 0;
       margin-bottom: 15px;
       width: 160px;
       transition: all 0.3s ease 0s;
@@ -3103,4 +3103,9 @@
     .main-logo {
       text-align: center;
       color: #fff;
+    }
+
+    .btn-white-border {
+      color: #fff;
+      border-color: #fff;
     }
