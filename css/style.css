@@ -2521,14 +2521,19 @@
     .team-item {
       padding-left: 15px;
       padding-right: 15px;
+      padding-bottom: 25px;
     }
 
     .team-item-img {
       position: relative;
+      height: 250px;
+      display: table-cell;
+      vertical-align: middle;
     }
 
     .team-item-img > img {
       width: 100%;
+      border-radius: 150px;
     }
 
     .team-item-img .team-item-detail {
