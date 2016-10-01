@@ -8,10 +8,10 @@
         int_nav_menu_height();
         int_sliderHero();
         int_isotopGridPortfolio();
-        int_Elements();
-        int_SliderPluguns();
-        int_lightbox();
-        init_wow();
+        // int_Elements();
+        // int_SliderPluguns();
+        // int_lightbox();
+        // init_wow();
     });
 
     $(window).load(function () {
@@ -29,7 +29,7 @@
         int_introHeight();
         stickHeader();
         int_nav_menu_height();
-        int_SliderPluguns();
+        // int_SliderPluguns();
         int_lightbox();
     });
 
@@ -322,13 +322,13 @@
     function int_Elements() {
 
         // Skills Progressbar Function
-        $(".skillbar").appear(function () {
-            $('.skillbar').each(function () {
-                $(this).find('.skillbar-bar-child').animate({
-                    width: $(this).attr('data-percent')
-                }, 2000);
-            });
-        });
+        // $(".skillbar").appear(function () {
+        //     $('.skillbar').each(function () {
+        //         $(this).find('.skillbar-bar-child').animate({
+        //             width: $(this).attr('data-percent')
+        //         }, 2000);
+        //     });
+        // });
 
         // Tabs Function
         //$(".tabs-nav  li a").click(function () {
@@ -374,20 +374,20 @@
         });
 
         // Tooltip Function
-        $(".tipped").tipper();
+        // $(".tipped").tipper();
 
 
         //Counter Number Function
-        $(".counter-num").appear(function () {
-            var counter = $(this);
-            counter.countTo({
-                from: 0,
-                to: counter.html(),
-                speed: 1300,
-                refreshInterval: 60,
-            });
+        // $(".counter-num").appear(function () {
+        //     var counter = $(this);
+        //     counter.countTo({
+        //         from: 0,
+        //         to: counter.html(),
+        //         speed: 1300,
+        //         refreshInterval: 60,
+        //     });
 
-        });
+        // });
 
         // Responsive Media Elements
         $(".media").fitVids();
